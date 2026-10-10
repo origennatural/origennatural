@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "origennatural",
+  "main": "@astrojs/cloudflare/entrypoints/server",
+  "account_id": "14385a9bc41c210c19e8cc029a15bacb",
+  "compatibility_date": "2026-09-05",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "origennatural",
+      "database_id": "40e42c00-fd76-4847-acb0-9ccf535a1dcb",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
